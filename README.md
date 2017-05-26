@@ -1,1 +1,1 @@
-# satyroffical.github.io
+# satyrofficial.github.io
