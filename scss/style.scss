@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
-@import "compass/css3";
-
-body{
-  background:black;
-  color:white;
-  font-family: 'Love ya like a sister', cursive;
+body, .jumbotron{
+  background-color:black;
 }
-.row{
-  border-style:solid;
-  border-width:3px;
-  border-color:black;
+.jumbotron{
+  height:auto;
+  width:100%;
+  margin:auto;
 }
+  img{
+    width:100%;
+    height:auto;
+  }
 .glitch{
   color:white;
   font-size:100px;
@@ -61,23 +60,3 @@ body{
   clip:rect(0,900px,0,0); 
   animation:noise-anim-2 3s infinite linear alternate-reverse;
 }	
-
-#vinyl{
- 
-}
-img{
-  width:100%;
-  height:auto;
-  display:relative;  
-}
-#vinyl{
-  width:103%;
-  box-shadow: 0 0 20px black;
-}
-#outset{
-  width:100%;
-  box-shadow: 0 0 20px black;
-}
-a{
-  font-size:30px;
-}
